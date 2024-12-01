@@ -1,0 +1,59 @@
+
+.name {
+    background: url('https://cdn.dribbble.com/users/1770290/screenshots/6183149/bg_79.gif');
+    /* background: url('https://i.pinimg.com/originals/12/60/e4/1260e47d0f4d4b5e96dc244495e1f2ef.gif'); */
+    /* background: url('https://media2.giphy.com/media/V4NSR1NG2p0KeJJyr5/giphy.gif'); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+.navigation {
+    padding: 20px;
+}
+
+.name h3 {
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul.flex {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: flex-start; /* Align items to the start, ensuring no stretch */
+}
+
+li {
+    display: inline-block; /* Ensure <li> takes only as much space as its content */
+    margin: 0;
+    padding: 2px;
+    white-space: nowrap; /* Prevent text wrapping */
+}
+
+li:hover {
+    /* Optional hover styles */
+}
+
+
+.li-item::after{
+    content: "";
+    width: 4px;
+    height: 4px;
+    background: white;
+
+}
+
+
+
+
+
+
+

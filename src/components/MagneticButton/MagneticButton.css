@@ -1,0 +1,27 @@
+#magneticButton {
+    position: fixed;
+    right: 16px;
+    top: 16px;
+    /* width: 90px;
+    height: 90px; */
+    /* background-color: #3b82f6; */
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transform: translate3d(0, 0, 0);
+    will-change: transform;
+}
+
+#magneticText {
+    pointer-events: none; /* Prevent interaction with the text */
+    transform: translate3d(0, 0, 0);
+    will-change: transform;
+}
+
+.navbtn {
+    position: relative;
+    overflow: hidden;
+}

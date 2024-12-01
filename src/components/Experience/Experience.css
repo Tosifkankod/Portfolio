@@ -1,0 +1,74 @@
+.card1 {
+    --border-bottom-width: 2px; 
+    --border-color: rgba(255, 255, 255, 0.02); 
+    --border-left-width: 2px; 
+    --border-right-width: 2px; 
+    --border-style: solid; 
+    --border-top-width: 2px; 
+    position: relative;
+    background-color: rgba(20, 21, 21, 0); 
+    /* width: 100%;  */
+    border: .5px solid rgb(45, 44, 44);
+    opacity: 1; 
+    border-radius: 40px; 
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 50px 30px, rgba(0, 0, 0, 0.06) 0px 12px 24px 4px;
+    transition: transform .5s ease; /* Restrict transition to transform only */
+    z-index: 1; /* Ensure stacking */
+}
+
+.card1::before {
+    content: "";
+    width: 50%;
+    position: absolute;
+    background-color: #F24D51;
+    height: 153px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 40%;
+    filter: blur(90px);
+    top: 60px;
+    z-index: -1; /* Ensure it remains behind the card */
+    pointer-events: none; /* Prevent hover effects */
+    transition: none; /* Ensure no transition is applied to ::before */
+}
+
+.card2 {
+    --border-bottom-width: 2px; 
+    --border-color: rgba(255, 255, 255, 0.02); 
+    --border-left-width: 2px; 
+    --border-right-width: 2px; 
+    --border-style: solid; 
+    --border-top-width: 2px; 
+    position: relative;
+    background-color: rgba(20, 21, 21, 0); 
+    /* width: 100%;  */
+    border: .5px solid rgb(45, 44, 44);
+    opacity: 1; 
+    border-radius: 40px; 
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 50px 30px, rgba(0, 0, 0, 0.06) 0px 12px 24px 4px;
+    transition: transform .5s ease; /* Restrict transition to transform only */
+    z-index: 1; /* Ensure stacking */
+}
+
+.card2::before {
+    content: "";
+    width: 50%;
+    position: absolute;
+    background-color: #F2C941;
+    height: 153px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 40%;
+    filter: blur(90px);
+    top: 60px;
+    z-index: -1; /* Ensure it remains behind the card */
+    pointer-events: none; /* Prevent hover effects */
+    transition: none; /* Ensure no transition is applied to ::before */
+}
+
+
+.card:hover {
+    transform: rotateZ(5deg); /* Apply only the rotation transition */
+}

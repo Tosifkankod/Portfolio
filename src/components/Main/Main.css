@@ -1,0 +1,26 @@
+.contact{
+    --border-bottom-width: 2px; 
+    --border-color: rgba(255, 255, 255, 0.02); 
+    --border-left-width: 2px; 
+    --border-right-width: 2px; 
+    --border-style: solid; 
+    --border-top-width: 2px; 
+    border: .5px solid rgb(63, 63, 63);
+    bottom: 20px;
+    background-color: rgba(20, 21, 21, 0.5); 
+    position: absolute;
+    backdrop-filter: blur(20px);
+    left: 50%;
+    z-index: 99;
+    transform: translateX(-50%);
+}
+
+.emoji_boy{
+    background: url('https://framerusercontent.com/images/DGJ4Gx0ogbA7MZuCQVUb98IKt1I.png?scale-down-to=512');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.getintouch-cont:hover .emoji_boy{
+    background-image: url('https://framerusercontent.com/images/tDOGAARw0kdQ37aQk0HWXiX9X8.png');
+}

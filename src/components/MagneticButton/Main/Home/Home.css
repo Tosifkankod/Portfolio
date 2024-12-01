@@ -1,0 +1,12 @@
+.myname{
+    
+        
+          /* * TEXT GRADIENT color: #808080; background-image: -webkit-linear-gradient(135deg, #808080 0%, #e8e8e8 19%, #97979c 100%); background-clip: text; -webkit-background-clip: text; text-fill-color: transparent; -webkit-text-fill-color: transparent;
+          
+         */
+         background: #EBEFF0;
+         background: linear-gradient(to right, #EBEFF0 5%, #808080 40%);
+         -webkit-background-clip: text;
+         -webkit-text-fill-color: transparent;
+         
+}

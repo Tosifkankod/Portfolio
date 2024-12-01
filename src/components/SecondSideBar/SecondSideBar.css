@@ -1,0 +1,6 @@
+.sidebar {
+    position: fixed;
+    left: -40%; /* Initial position for closed state */
+    border-radius: 50%; /* Initial border radius for closed state */
+    transition: none; /* Disable CSS transitions to avoid conflicts */
+}
