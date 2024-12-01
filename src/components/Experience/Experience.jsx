@@ -12,7 +12,7 @@ const Experience = () => {
       <div className="flex flex-wrap gap-20 justify-center">
         <div className="card card1 relative w-[320px] p-[32px] pb-[36px] h-[368px] rounded-[40px]">
           <div className="flex opacity-1 items-center justify-center bg-gradient-to-r from-rose-400 to-red-500 w-full h-[153px] rounded-[28px]">
-            <img src={kjss} className="w-[70px]" alt="" />
+            <img src="/portfolio/assets/kjss.png" className="w-[70px]" alt="" />
           </div>
           <p className="text-gray-300 mt-4 text-lg font-bold">
             KJSS Cosmos Pvt. Ltd
@@ -24,7 +24,7 @@ const Experience = () => {
 
         <div className="card card2 relative w-[320px] p-[32px] pb-[36px] h-[368px] rounded-[40px]">
           <div className="flex opacity-1 items-center justify-center bg-gradient-to-r from-amber-200 to-yellow-500 w-full h-[153px] rounded-[28px]">
-            <img src={L360} className="w-[70px]" alt="" />
+            <img src="/portfolio/assets/L360.png" className="w-[70px]" alt="" />
           </div>
           <p className="text-gray-300 mt-4 text-lg font-bold">Learning 360</p>
           <p className=" font-bold absolute bottom-[36px] text-gray-500">
