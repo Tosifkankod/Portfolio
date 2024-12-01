@@ -1,6 +1,4 @@
 import React from "react";
-import kjss from "../../assets/kjss.png";
-import L360 from "../../assets/L360.png";
 import "./Experience.css";
 
 const Experience = () => {
