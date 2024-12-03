@@ -6,6 +6,8 @@ import Experience from '../Experience/Experience';
 import Contact from './Contact/Contact';
 import { FaInstagram, FaLinkedin  } from "react-icons/fa6";
 import { ImMail } from "react-icons/im";
+import { FaGithubSquare } from "react-icons/fa";
+
 
 import './Main.css'
 
@@ -18,8 +20,8 @@ const Main = () => {
             <Experience />
             <Contact/>
             <div className='contact flex rounded-xl fixed text-neutral-700 w-1/2 lg:w-1/6 justify-around text-2xl  px-6 py-2'>
-                <a href="https://www.instagram.com/tosifjerry" target='_blank' className=' hover:bg-neutral-700 hover:text-white p-2 rounded-md '>
-                    <FaInstagram/>
+                <a href="https://github.com/Tosifkankod`" target='_blank' className=' hover:bg-neutral-700 hover:text-white p-2 rounded-md '>
+                    <FaGithubSquare/>
                 </a>
                 <a href="https://linkedin.com/in/tosif-kankod" target='_blank' className=' hover:bg-neutral-700 hover:text-white p-2 rounded-md'>
                     <FaLinkedin/>
