@@ -87,6 +87,10 @@ const Skills = () => {
               <img src="/portfolio/assets/logos/redux.png" className="w-[25px] " alt="" />
               redux   
           </div>
+          <div className='chip flex items-center justify-center text-xl bg-red-500 text-white font-bold shadow-red-700 shadow-md gap-2 px-4 py-1'>
+              <img src="/portfolio/assets/logos/materialui.png" className="w-[25px] " alt="" />
+              Material UI   
+          </div>
           <div className='chip flex items-center justify-center text-xl bg-pink-500 text-white font-bold shadow-pink-500 shadow-md gap-2 px-4 py-1'>
               <img src="/portfolio/assets/logos/tailwind.png" className="w-[25px] " alt="" />
               tailwind   
